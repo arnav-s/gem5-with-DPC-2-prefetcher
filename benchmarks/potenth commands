@@ -1,0 +1,22 @@
+echo
+grep
+rnano
+date
+dd
+df
+dmesg (best? - 21B)
+domainname
+false
+true
+findmnt (6B)
+hostname (600m)
+gzip would be cash with commands
+mkdir - shows help
+mktemp (small)
+more could be cash with commands
+mount (2B)
+ping would be neat with commands
+pwd small
+stty small
+uname small
+

@@ -1,0 +1,10 @@
+sprintf(buffer,"**System used for compilation:\n");
+output_string(buffer);
+sprintf(buffer,"**Linux bjonen-VirtualBox 4.15.0-36-generic #39~16.04.1-Ubuntu SMP Tue Sep 25 08\n");
+output_string(buffer);
+sprintf(buffer,"**C compiler: gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) \n");
+output_string(buffer);
+sprintf(buffer,"**libc: libc-2.23.so\n");
+output_string(buffer);
+sprintf(buffer,"**Date of compilation: Tue Nov 27 16:18:32 CST 2018\n");
+output_string(buffer);
