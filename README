@@ -1,3 +1,12 @@
+Additional instructions for prefetcher additions:
+To automatically generate script to run gem5 with several configuration combinations,
+modify and run "script_gen.py". For example, run 
+./script_gen.py > prefetcher_gem5_batch.sh
+You may need to add permissions to the .sh file with
+chmod +x prefetcher_gem5_batch.sh
+
+*****
+
 This is the gem5 simulator.
 
 The main website can be found at http://www.gem5.org
