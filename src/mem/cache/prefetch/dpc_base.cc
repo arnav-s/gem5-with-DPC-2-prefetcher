@@ -34,12 +34,12 @@ void DPCPrefetcher::setCache(BaseCache *_cache)
     DPRINTF(HWPrefetch,"L2_SET_COUNT = %d\n",(((BaseSetAssoc*)((::Cache*)cache)->tags)->numSets));
     DPRINTF(HWPrefetch,"L2_ASSOCIATIVITY = %d\n",(((BaseSetAssoc*)((::Cache*)cache)->tags)->assoc));
 
-    assert(CACHE_LINE_SIZE==(blkSize));
-    assert(PAGE_SIZE==(pageBytes));
-    assert(L2_MSHR_COUNT==(((::Cache*)cache)->mshrQueue.numEntries));
-    assert(L2_READ_QUEUE_SIZE==(32));
-    assert(L2_SET_COUNT==(((BaseSetAssoc*)((::Cache*)cache)->tags)->numSets));
-    assert(L2_ASSOCIATIVITY==(((BaseSetAssoc*)((::Cache*)cache)->tags)->assoc));
+    //assert(CACHE_LINE_SIZE==(blkSize));
+    //assert(PAGE_SIZE==(pageBytes));
+    //assert(L2_MSHR_COUNT==(((::Cache*)cache)->mshrQueue.numEntries));
+    //assert(L2_READ_QUEUE_SIZE==(32));
+    //assert(L2_SET_COUNT==(((BaseSetAssoc*)((::Cache*)cache)->tags)->numSets));
+    //assert(L2_ASSOCIATIVITY==(((BaseSetAssoc*)((::Cache*)cache)->tags)->assoc));
 
     int cpu_num = 0;
     l2_prefetcher_initialize(cpu_num);
